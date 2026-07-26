@@ -20,6 +20,7 @@ export const DATA = {
     "Software Engineer specializing in AI Engineering, Data Engineering, and Full Stack Development. I build intelligent applications, scalable data platforms, and production-ready AI systems that solve real-world problems.",
   summary:
     "I am a Computer Science undergraduate passionate about building AI-powered products, scalable backend systems, and modern data platforms. I enjoy solving real-world problems through software engineering, artificial intelligence, and data engineering. My goal is to build intelligent, scalable, and impactful applications while continuously learning modern technologies. My interests include AI Agents, LLM Applications, Data Engineering, Cloud Computing, Backend Engineering, Machine Learning, and Full Stack Development.",
+  cvUrl: "/Kasun_Wathsala_CV.pdf",
   avatarUrl: "/kkkkkk.jpeg",
   skills: [
     { name: "Python", icon: Python },
@@ -97,7 +98,7 @@ export const DATA = {
       start: "July 2025",
       end: "July 2026",
       description:
-        "Developed scalable web applications and built backend APIs. Worked on AI integrations and collaborated with the team using Agile methodology. Optimized application performance and participated in production deployments.",
+        "Developed scalable web applications and backend APIs while contributing to AI-powered features using LLM integrations. Built and optimized ETL pipelines for structured data processing, improved application performance, and supported production deployments in an Agile team environment.",
     },
   ],
   education: [
