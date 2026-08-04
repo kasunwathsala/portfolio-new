@@ -133,15 +133,39 @@ export const DATA = {
       video: "/cloudewave.mp4",
     },
     {
+      title: "ABC HUB ETL Pipeline",
+      href: "https://www.linkedin.com/posts/kasun-nilaweera-62916430a_dataengineering-apachenifi-postgresql-ugcPost-7483516737083056128-fSx_/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE6wcIEBqIHL2NcY2SXHnzK52rUGaJku7A8",
+      dates: "2026",
+      active: true,
+      description:
+        "Built an end-to-end ETL pipeline with Apache NiFi and PostgreSQL to automate data extraction, transformation, validation, and loading into a Star Schema data warehouse. Implemented workflow orchestration, error handling, and logging to create a reliable and scalable data pipeline for analytical reporting. Strengthened practical skills in ETL processes, SQL, data warehousing, and dimensional modeling through hands-on implementation.",
+      technologies: ["Apache NiFi", "PostgreSQL", "ETL", "Data Warehousing", "Star Schema", "Workflow Orchestration"],
+      links: [],
+      image: "/ABCHUB.jpg",
+      video: "",
+    },
+    {
       title: "AI Research Assistant",
       href: "https://github.com/kasunwathsala/Multi-agent-AI-researcher",
       dates: "2026",
       active: true,
       description:
-        "Developed a multi-agent AI research platform using LangChain, LangGraph, OpenAI, and FastAPI, enabling autonomous reasoning, web search, agent collaboration, and automated report generation through intelligent AI workflows.",
+        "Built a multi-agent AI research platform that automates the research-to-report workflow using LangGraph and LangChain. Implemented specialized AI agents for planning, research, analysis, and report generation with human-in-the-loop interactions. Developed a FastAPI backend with structured agent communication and integrated a Next.js chat interface for interactive AI-driven research.",
       technologies: ["LangChain", "LangGraph", "OpenAI", "FastAPI"],
       links: [],
       image: "/research desk-1.png",
+      video: "",
+    },
+    {
+      title: "Multi Agent Travel Planner",
+      href: "https://github.com/kasunwathsala/MULTI-AGENT-TRAVEL-PLANNER",
+      dates: "2026",
+      active: true,
+      description:
+        "Developed an AI-powered travel planning platform that generates personalized itineraries and optimizes the travel booking process using multi-agent AI workflows. Designed and orchestrated three specialized AI agents — Requirement Agent for understanding user preferences and travel needs, Planner Agent for creating optimized travel itineraries, and Booker Agent for assisting with booking recommendations and processes. Implemented agent collaboration using LangChain and LangGraph with OpenAI models, and developed a FastAPI backend in Python to deliver scalable AI-driven travel planning services.",
+      technologies: ["LangChain", "LangGraph", "OpenAI", "FastAPI","python"],
+      links: [],
+      image: "/travel.avif",
       video: "",
     },
     {
@@ -150,8 +174,8 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "Fullstack solar energy management platform with real-time monitoring, predictive maintenance, and energy optimization.",
-      technologies: ["React", "Node.js", "MongoDB", "Typescript","Redux","Stripe","zod"],
+        "Developed a full-stack Solar Dashboard for real-time solar energy monitoring, anomaly detection, and billing automation. Built interactive dashboards with live energy analytics, historical reporting, and weather data integration while implementing secure authentication, payment processing with Stripe, automated background jobs, and scalable REST APIs. Focused on delivering a reliable, data-driven platform for monitoring solar systems and streamlining operational workflows using modern full-stack technologies.",
+      technologies: ["React", "Node.js", "MongoDB", "Typescript","Redux","Stripe","zod","Tailwind css","shadcn/ui"],
       links: [],
       image: "",
       video: "/sunleaf.mp4",
@@ -162,8 +186,8 @@ export const DATA = {
       dates: "2026",
       active: true,
       description:
-        "AI-powered saloon booking system that recommends personalized services and optimizes appointment scheduling.",
-      technologies: ["Next.js", "OpenAI", "Google Maps", "Prisma"],
+        "Built a responsive Salon Booking Website using Next.js and React, implementing dynamic service listings, stylist profiles, a multi-step appointment booking workflow, customer testimonials, and contact management. Focused on creating a fast, scalable, and intuitive user experience through component-based architecture, responsive design, and modern frontend development practices.",
+      technologies: ["Next.js", "Typescript"],
       links: [],
       image: "",
       video: "/saloon.mp4",
@@ -175,7 +199,7 @@ export const DATA = {
       active: true,
       description:
         "Scalable e-commerce platform with customer analytics, workflow automation, and reporting dashboard.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Docker"],
+      technologies: ["React","Tailwind css","javascript"],
       links: [],
       image: "",
       video: "/minishop.mp4",
