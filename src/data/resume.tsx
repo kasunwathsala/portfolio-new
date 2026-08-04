@@ -192,6 +192,18 @@ export const DATA = {
     //   image: "",
     //   video: "",
     // },
+     {
+      title: "CloudeWave Events- AWS serverless event management platform",
+      href: "https://d1glqpr0nzlm26.cloudfront.net",
+      dates: "2026",
+      active: true,
+      description:
+        "Built a serverless event management platform using AWS, React.js, and Node.js with secure authentication, REST APIs, cloud storage, automated notifications, scheduled workflows, and CI/CD deployment.",
+      technologies: ["AWS Cognito", "AWS Lambda", "AWS API Gateway", "AWS S3", "AWS SES", "AWS EventBridge", "AWS CloudWatch"],
+      links: [],
+      image: "",
+      video: "/cloudwave.mp4",
+    },
   ],
   hackathons: [],
 } as const;
