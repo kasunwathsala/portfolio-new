@@ -51,7 +51,7 @@ export default function Page() {
               <Markdown>{DATA.summary}</Markdown>
             </div>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+          {/* <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
             <Button
               asChild
               className="h-auto w-fit gap-2 rounded-xl bg-primary px-4 py-1 text-sm text-background hover:bg-primary/90"
@@ -61,7 +61,7 @@ export default function Page() {
                 Download Resume
               </a>
             </Button>
-          </BlurFade>
+          </BlurFade> */}
         </div>
       </section>
       <section id="work">
