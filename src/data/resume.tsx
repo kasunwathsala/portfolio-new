@@ -20,8 +20,8 @@ export const DATA = {
     "Software Engineer specializing in AI Engineering, Data Engineering, and Full Stack Development. I build intelligent applications, scalable data platforms, and production-ready AI systems that solve real-world problems.",
   summary:
     "I am a Computer Science undergraduate passionate about building AI-powered products, scalable backend systems, and modern data platforms. I enjoy solving real-world problems through software engineering, artificial intelligence, and data engineering. My goal is to build intelligent, scalable, and impactful applications while continuously learning modern technologies. My interests include AI Agents, LLM Applications, Data Engineering, Cloud Computing, Backend Engineering, Machine Learning, and Full Stack Development.",
-  cvUrl: "/Kasun_Wathsala_CV.pdf",
-  avatarUrl: "/kkkkkk.jpeg",
+  cvUrl: "/Kasun_Nilaweera1_CV.pdf",
+  avatarUrl: "/kasunn.jpg",
   skills: [
     { name: "Python", icon: Python },
     { name: "React", icon: ReactLight },

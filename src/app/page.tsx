@@ -33,7 +33,7 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
-              <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
+              <Avatar className="size-26 md:size-36 border rounded-full shadow-lg ring-4 ring-muted transition-transform duration-300 hover:scale-105">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
@@ -51,7 +51,7 @@ export default function Page() {
               <Markdown>{DATA.summary}</Markdown>
             </div>
           </BlurFade>
-          {/* <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+          <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
             <Button
               asChild
               className="h-auto w-fit gap-2 rounded-xl bg-primary px-4 py-1 text-sm text-background hover:bg-primary/90"
@@ -61,7 +61,7 @@ export default function Page() {
                 Download Resume
               </a>
             </Button>
-          </BlurFade> */}
+          </BlurFade>
         </div>
       </section>
       <section id="work">
